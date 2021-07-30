@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Cash Register</title>
+</head>
+<body>
+	<div class="container">
+		<h1>Cash Register</h1>
+		<div class="form-control">
+			<label>Enter bill amount:</label>
+			<input type="number" id="bill">
+			<small id="error"></small>
+		</div>
+		<!-- <div id="error"></div> -->
+		<button id="nextbtn">Next</button>
+		<div class="form-control hide" id="initial-hide">
+			<label>Enter cash given:</label>
+			<input type="number" id="cash">
+			<small id="error2"></small>
+		</div>
+		<button id="btn">Calculate</button>
+		<div id="output"></div>
+	</div>
+	
+	<script src="app.js"></script>
+</body>
+</html>
