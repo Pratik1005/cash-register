@@ -68,6 +68,10 @@ const currency = [1, 5, 10, 20, 100, 500, 2000];
 				console.log(`No. of ${key}\'s = ${value}`);
 			}
 
+			for (const property in currencyTypes) {
+				currencyTypes[property] = 0;
+			}
+
 			const currencyNotes = Object.keys(currencyTypes);
 			const numberOfNotes = Object.values(currencyTypes);
 			// const table = document.createElement('table');
